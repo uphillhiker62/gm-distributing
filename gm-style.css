@@ -1,0 +1,65 @@
+html,body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    width 100%;
+}
+
+body {
+    /*background-image: url("https://static.pexels.com/photos/355770/pexels-photo-355770.jpeg");*/
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    /*background-color: #d1d2c5;*/
+    /*opacity: .7;*/
+}
+
+.headerbar {
+    /*background-image: url("https://static.pexels.com/photos/355770/pexels-photo-355770.jpeg");*/
+    /*background-size: cover;*/
+    /*height: 1000px;*/
+    /*width: 100%;*/
+}
+
+.headername {
+    display: flex;
+    font-size: 65px;
+    justify-content: center;
+}
+
+#navbarcolor {
+    opacity: .7;
+}
+
+a {
+    color: black;
+    opacity: .8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 100%;
+}
+
+.navitem {
+    display: flex;
+    padding-right: 50px;
+    font-size: 30pt;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.block-item {
+    border: #000000 2px solid;
+    opacity: .5;
+    height: 500px;
+    width: 300px;
+}
