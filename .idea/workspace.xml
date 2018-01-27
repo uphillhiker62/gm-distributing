@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f82398be-c4cc-4e97-84f5-0aef3232aced" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/logo.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
       <change beforePath="$PROJECT_DIR$/contactPage.html" afterPath="$PROJECT_DIR$/contactPage.html" />
       <change beforePath="$PROJECT_DIR$/gm-style.css" afterPath="$PROJECT_DIR$/gm-style.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/productsPage.html" afterPath="$PROJECT_DIR$/productsPage.html" />
-      <change beforePath="$PROJECT_DIR$/projects.html" afterPath="$PROJECT_DIR$/projects.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -67,8 +64,8 @@
           <file leaf-file-name="contactPage.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/contactPage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+                <state relative-caret-position="83">
+                  <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
                   <folding />
                 </state>
               </provider>
@@ -81,8 +78,8 @@
           <file leaf-file-name="gm-style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/gm-style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -118,12 +115,12 @@
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/About.html" />
         <option value="$PROJECT_DIR$/gm_style.css" />
-        <option value="$PROJECT_DIR$/gm-style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/productsPage.html" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/contactPage.html" />
+        <option value="$PROJECT_DIR$/gm-style.css" />
       </list>
     </option>
   </component>
@@ -230,12 +227,12 @@
       <workItem from="1516725161454" duration="12268000" />
       <workItem from="1516814656411" duration="10569000" />
       <workItem from="1516981962573" duration="369000" />
-      <workItem from="1516984538229" duration="11754000" />
+      <workItem from="1516984538229" duration="13246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35333000" />
+    <option name="totallyTimeSpent" value="36825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1420" height="877" extended-state="0" />
@@ -467,14 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gm-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -509,8 +498,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contactPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="83">
+          <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gm-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
