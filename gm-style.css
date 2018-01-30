@@ -1,71 +1,105 @@
 html,body {
-    /*height: 100%;*/
     padding: 0;
-    margin: 0;
-    width 100%;
+    width: 100%;
+    height: 100%;
     font-family: 'Oswald', sans-serif;
 }
 
 body {
-    background-image: url("https://static.pexels.com/photos/355770/pexels-photo-355770.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 1000px;
-    width: 100%;
-    /*background-color: #d1d2c5;*/
-    /*opacity: .7;*/
+   margin: auto;
 }
 
-.headerbar {
-    /*background-image: url("https://static.pexels.com/photos/355770/pexels-photo-355770.jpeg");*/
-    /*background-size: cover;*/
-    /*height: 1000px;*/
-    /*width: 100%;*/
+.container {
+    width: 100%;
 }
 
 .headername {
     display: flex;
-    font-size: 65px;
+    font-size: 50px;
     justify-content: center;
 }
 
-#navbarcolor {
-    opacity: .7;
+.headerbar {
+    display: flex;
+    background-color: #253746;
+}
+
+.navcontainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#headerGM{
+    font-size: 50px;
+    color: white;
 }
 
 a {
     color: black;
     opacity: .8;
+    text-decoration: none;
 }
 
-a {
-    text-decoration: none;
+a:hover, a:active {
+    color: slategrey;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-around;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    height: 100%;
+    align-items: center;
+    list-style: none;
 }
 
 .navitem {
     display: flex;
     padding-right: 50px;
-    font-size: 30pt;
+    font-size: 18pt;
+    color: white;
 }
 
 .main-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    background-image: url(https://static.pexels.com/photos/355770/pexels-photo-355770.jpeg);
+    background-size: cover;
+    height: 900px;
 }
 
 .block-item {
     border: #000000 2px solid;
     opacity: .5;
-    height: 400px;
-    width: 350px;
+    margin-top: 60px;
+    width: 25%;
+
+}
+
+footer {
+    background-color: #253746;
+    height: 170px;
+    color: white;
+}
+
+div ul li a {
+    color: white;
+}
+
+.linksToOutSideSources {
+    opacity: .7;
+}
+
+ul {
+    list-style: none;
+}
+
+div.linksToOutSideSources ul li {
+    padding: 3px 0 3px 15px;
+}
+
+@media screen and (max-width: 1100px) {
+    .main-container {
+        flex-direction: column;
+    }
 }
