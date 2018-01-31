@@ -97,9 +97,28 @@ div.linksToOutSideSources ul li {
     padding: 3px 0 3px 15px;
 }
 
+/*contactPage.html Section */
+
+.contact-form {
+    margin: 25px;
+}
+
+.form-inputs {
+    padding: 5px;
+    margin: 5px 5px;
+}
+
+/*contactPage.html Section */
+
 @media screen and (max-width: 900px) {
     .headerGM {
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navitem {
+        font-size: 13px;
     }
 }
 
