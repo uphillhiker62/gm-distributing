@@ -4,95 +4,121 @@ html,body {
     height: 100%;
     font-family: 'Oswald', sans-serif;
 }
-
 body {
-   margin: auto;
+    background-color: #ffffff;
+    margin: auto;
 }
-
+a {
+    color: #253746;
+    opacity: .8;
+    text-decoration: none;
+}
+footer {
+    background-color: #254378;
+    opacity: .9;
+    height: 170px;
+    color: white;
+}
+ul {
+    list-style: none;
+}
 .container {
     width: 100%;
+    line-height: 30px;
 }
-
 .headername {
     display: flex;
     font-size: 50px;
     justify-content: center;
 }
-
 .headerbar {
-    background-color: #253746;
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Sky-Blue-Backgrounds-Free-Widescreen.jpg");
+    /*background-color: #253746;*/
+    opacity: .9;
 }
-
 .navcontainer {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
-
 .headerGM {
     font-size: 50px;
     color: white;
 }
-
-a {
-    color: black;
-    opacity: .8;
-    text-decoration: none;
-}
-
 a:hover, a:active {
     color: slategrey;
 }
-
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     list-style: none;
 }
-
 .navitem {
     display: flex;
-    padding-right: 50px;
     font-size: 18pt;
     color: white;
 }
-
 .main-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* margin-top: 100px; */
-    background-image: url(https://static.pexels.com/photos/355770/pexels-photo-355770.jpeg);
+    background-image: url("https://static.pexels.com/photos/355770/pexels-photo-355770.jpeg");
     background-size: cover;
-    height: 900px;
+}
+.stock-item-container {
+    display: flex;
+    flex-flow: wrap;
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 50px
+
 }
 
-.block-item {
-    border: #000000 2px solid;
-    opacity: .5;
-    margin-top: 60px;
-    width: 25%;
-
+/*.stock-item-container {*/
+    /*width: 250px;*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+/*}*/
+.stock-item {
+    height: 350px;
+    width: 300px;
+    border: lightgrey 1px solid;
+    color: #676767;
+    font-family: "Gotham A","Gotham B",sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 6px;
+    padding: 10px;
+    background-color: white;
 }
-
-footer {
-    background-color: #253746;
-    height: 170px;
-    color: white;
+.stock-item img {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
 }
-
+.stock-item h3, p {
+    margin: 0px;
+}
+.stock-item p {
+    margin-top: 13px;
+    padding: 0px;
+}
+.main-container div h1, p {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    color: #676767;
+    font-family: "Gotham A","Gotham B",sans-serif;
+    font-weight: 400;
+}
+.main-top p {
+    padding-top: 0;
+}
 div ul li a {
     color: white;
 }
-
 .linksToOutSideSources {
     opacity: .7;
 }
-
-ul {
-    list-style: none;
-}
-
 div.linksToOutSideSources ul li {
     padding: 3px 0 3px 15px;
 }
@@ -102,28 +128,47 @@ div.linksToOutSideSources ul li {
 .contact-form {
     margin: 25px;
 }
-
 .form-inputs {
     padding: 5px;
     margin: 5px 5px;
 }
-
+.main-left, .main-right{
+    background-color: white;
+    border: #000000 2px solid;
+    margin-top: 60px;
+    width: 40%;
+    height: 55%;
+    /*opacity: .6;*/
+    color: #253746;
+}
 /*contactPage.html Section */
-
-@media screen and (max-width: 900px) {
-    .headerGM {
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .navitem {
-        font-size: 13px;
-    }
-}
 
 @media screen and (max-width: 1100px) {
     .main-container {
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 1050px) {
+    .headerGM {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .navitem {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        margin: 15px;
+    }
+}
+
+
