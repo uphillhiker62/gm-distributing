@@ -5,7 +5,7 @@ html,body {
     font-family: 'Oswald', sans-serif;
 }
 body {
-    background-color: #ffffff;
+    background-color: slategrey;
     margin: auto;
 }
 a {
@@ -26,24 +26,30 @@ ul {
     width: 100%;
     line-height: 30px;
 }
-.headername {
-    display: flex;
-    font-size: 50px;
-    justify-content: center;
-}
+/*.headername {*/
+    /*display: flex;*/
+    /*font-size: 50px;*/
+    /*justify-content: center;*/
+/*}*/
 .headerbar {
     background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Sky-Blue-Backgrounds-Free-Widescreen.jpg");
     /*background-color: #253746;*/
     opacity: .9;
-}
-.navcontainer {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
+    position: fixed;
+}
+.logo {
+    display: flex;
+    align-items: center;
 }
 .headerGM {
     font-size: 50px;
     color: white;
+    height: 120px;
+    width: 120px;
 }
 a:hover, a:active {
     color: slategrey;
@@ -58,10 +64,12 @@ a:hover, a:active {
     display: flex;
     font-size: 18pt;
     color: white;
+    margin: 40px;
 }
 .main-container {
     background-image: url("https://static.pexels.com/photos/355770/pexels-photo-355770.jpeg");
     background-size: cover;
+    padding-top: 110px;
 }
 .stock-item-container {
     display: flex;
@@ -79,8 +87,8 @@ a:hover, a:active {
     /*justify-content: space-between;*/
 /*}*/
 .stock-item {
-    height: 350px;
-    width: 300px;
+    height: 275px;
+    width: 250px;
     border: lightgrey 1px solid;
     color: #676767;
     font-family: "Gotham A","Gotham B",sans-serif;
@@ -89,11 +97,17 @@ a:hover, a:active {
     margin: 6px;
     padding: 10px;
     background-color: white;
+    opacity: .9;
 }
 .stock-item img {
-    height: 250px;
-    width: 250px;
+    height: 185px;
+    width: 215px;
     margin: 0 auto;
+}
+#bfp {
+    height: 150px;
+    width: 215px;
+    margin-bottom: 35px;
 }
 .stock-item h3, p {
     margin: 0px;
@@ -145,29 +159,41 @@ div.linksToOutSideSources ul li {
 
 @media screen and (max-width: 1100px) {
     .main-container {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 1050px) {
-    .headerGM {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 1050px) {
-    .navitem {
-        font-size: 15px;
-    }
-}
-
-
-@media screen and (max-width: 750px) {
-    .navbar {
         display: flex;
         flex-direction: column;
-        font-size: 15px;
+    }
+}
+
+/*@media screen and (max-width: 825px) {*/
+    /*.headerGM {*/
+        /*font-size: 30px;*/
+    /*}*/
+}
+/*@media screen and (max-width: 800px) {*/
+    /*.headerbar {*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    /*}*/
+    /*.navitem {*/
+        /*font-size: 15px;*/
+    /*}*/
+}
+@media screen and (max-width: 500px) {
+    .navbar {
+        /*font-size: 15px;*/
         margin: 15px;
+        padding-right: 15px;
+    }
+    .main-container {
+        padding-top: 230px;
+    }
+    .navitem {
+        font-size: 5px;
+    }
+    .headerbar {
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
