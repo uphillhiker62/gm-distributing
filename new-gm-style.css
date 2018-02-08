@@ -1,0 +1,174 @@
+html,
+body {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Oswald', sans-serif;
+}
+body {
+  background-color: slategrey;
+  margin: auto;
+}
+a {
+  color: #FFFFFF;
+  opacity: .8;
+  text-decoration: none;
+}
+a a:hover,
+a a:active {
+  color: slategrey;
+}
+footer {
+  background: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Sky-Blue-Backgrounds-Free-Widescreen.jpg");
+  opacity: .9;
+  color: #FFFFFF;
+}
+ul {
+  list-style: none;
+}
+.container {
+  width: 100%;
+  line-height: 30px;
+}
+.container .headerbar {
+  background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Sky-Blue-Backgrounds-Free-Widescreen.jpg");
+  /*background-color: #253746;*/
+  opacity: .9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+.container .logo {
+  display: flex;
+  align-items: center;
+}
+.container .headerGM {
+  font-size: 50px;
+  color: white;
+  height: 120px;
+  width: 120px;
+}
+.container .navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+.container .navitem {
+  display: flex;
+  font-size: 18pt;
+  color: white;
+  margin: 40px;
+}
+.container .main-container {
+  background-image: url("https://static.pexels.com/photos/355770/pexels-photo-355770.jpeg");
+  background-size: cover;
+  padding-top: 110px;
+}
+.container .main-container h1 {
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+  color: #676767;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-weight: 400;
+}
+.container .main-container p {
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+  color: #676767;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-weight: 400;
+}
+.container .main-top p {
+  padding-top: 0;
+  width: 70%;
+  margin: 0 auto;
+}
+.container .stock-item-container {
+  display: flex;
+  flex-flow: wrap;
+  margin: 0 auto;
+  width: 70%;
+  padding-bottom: 50px;
+}
+.container .stock-item {
+  height: 275px;
+  width: 250px;
+  border: lightgrey 1px solid;
+  color: #676767;
+  font-family: "Gotham A", "Gotham B", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin: 6px;
+  padding: 10px;
+  background-color: white;
+  opacity: .9;
+}
+.container .stock-item img {
+  height: 185px;
+  width: 215px;
+  margin: 0 auto;
+}
+.container .stock-item h3 {
+  margin: 0px;
+}
+.container .stock-item p {
+  margin: 5px 0 0 0;
+  padding: 0px;
+}
+.container .stock-item #bfp {
+  height: 150px;
+  width: 215px;
+  margin-bottom: 35px;
+}
+.container .linksToOutSideSources li {
+  padding: 3px 0 3px 15px;
+}
+/*<--------------contactPage.html Section------------------->*/
+.contact-form {
+  margin: 25px;
+}
+.form-inputs {
+  padding: 5px;
+  margin: 5px 5px;
+}
+.main-left,
+.main-right {
+  background-color: white;
+  border: #000000 2px solid;
+  margin-top: 60px;
+  width: 40%;
+  height: 55%;
+  /*opacity: .6;*/
+  color: #253746;
+}
+/*<--------------contactPage.html Section------------------->*/
+@media screen and (max-width: 1100px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar {
+    /*font-size: 15px;*/
+    margin: 15px;
+    padding-right: 15px;
+  }
+  .main-container {
+    padding-top: 230px;
+  }
+  .navitem {
+    font-size: 5px;
+  }
+  .headerbar {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+}
