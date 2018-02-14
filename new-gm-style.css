@@ -6,7 +6,7 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 body {
-  background-color: slategrey;
+  background-color: #d7e4f1;
   margin: auto;
 }
 a {
@@ -19,7 +19,7 @@ a a:active {
   color: slategrey;
 }
 footer {
-  background: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Sky-Blue-Backgrounds-Free-Widescreen.jpg");
+  background-color: #114a9a;
   opacity: .9;
   color: #FFFFFF;
 }
@@ -27,13 +27,10 @@ ul {
   list-style: none;
 }
 .container {
-  width: 100%;
   line-height: 30px;
 }
 .container .headerbar {
-  background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Sky-Blue-Backgrounds-Free-Widescreen.jpg");
-  /*background-color: #253746;*/
-  opacity: .9;
+  background-color: #2b6bc5;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -64,9 +61,11 @@ ul {
   margin: 40px;
 }
 .container .main-container {
-  background-image: url("https://static.pexels.com/photos/355770/pexels-photo-355770.jpeg");
+  background-color: #f2f7ff;
   background-size: cover;
   padding-top: 110px;
+  margin: 0 auto;
+  width: 90%;
 }
 .container .main-container h1 {
   text-align: center;
@@ -125,6 +124,13 @@ ul {
   height: 150px;
   width: 215px;
   margin-bottom: 35px;
+}
+.container .linksToOutSideSources {
+  display: flex;
+  margin: 0px 30px;
+}
+.container .linksToOutSideSources ul {
+  margin: 20px;
 }
 .container .linksToOutSideSources li {
   padding: 3px 0 3px 15px;

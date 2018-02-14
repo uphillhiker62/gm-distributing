@@ -1,7 +1,7 @@
 @anchor-white: #FFFFFF;
-@nav-blue: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Sky-Blue-Backgrounds-Free-Widescreen.jpg");
-@footer-blue: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Sky-Blue-Backgrounds-Free-Widescreen.jpg");
-@main-clouds: url("https://static.pexels.com/photos/355770/pexels-photo-355770.jpeg");
+@nav-blue: #2b6bc5;
+@footer-blue: #114a9a;
+@main-grey: #f2f7ff;
 
 html,body {
   padding: 0;
@@ -10,7 +10,7 @@ html,body {
   font-family: 'Oswald', sans-serif;
 }
 body {
-  background-color: slategrey;
+  background-color: #d7e4f1;
   margin: auto;
 }
 a {
@@ -23,7 +23,8 @@ a {
   }
 }
 footer {
-  background: @footer-blue;
+  //background: @footer-blue;
+  background-color: @footer-blue;
   opacity: .9;
   color: @anchor-white;
 }
@@ -31,12 +32,10 @@ ul {
   list-style: none;
 }
 .container {
-  width: 100%;
   line-height: 30px;
+
   .headerbar {
-    background-image: @nav-blue;
-    /*background-color: #253746;*/
-    opacity: .9;
+    background-color: @nav-blue;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,9 +66,11 @@ ul {
     margin: 40px;
   }
   .main-container {
-    background-image: @main-clouds;
+    background-color: @main-grey;
     background-size: cover;
     padding-top: 110px;
+    margin: 0 auto;
+    width: 90%;
 
     h1 {
       text-align: center;
@@ -135,9 +136,16 @@ ul {
     }
   }
   .linksToOutSideSources {
-    li {
-      padding: 3px 0 3px 15px;
+    display: flex;
+    margin: 0px 30px;
+
+    ul {
+      margin: 20px;
     }
+
+      li {
+        padding: 3px 0 3px 15px;
+      }
   }
 }
 
