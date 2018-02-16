@@ -130,13 +130,24 @@ ul {
 }
 .container .linksToOutSideSources {
   display: flex;
+  justify-content: center;
   margin: 0px 30px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .container .linksToOutSideSources ul {
-  margin: 20px;
+  margin: 17px 0 20px 0;
+}
+.container .linksToOutSideSources .link-heading {
+  margin: 10px 0 10px 0;
 }
 .container .linksToOutSideSources li {
-  padding: 3px 0 3px 15px;
+  padding: 3px 0 3px 0px;
+  line-height: 16px;
+}
+.container .copy-right-box {
+  text-align: center;
+  padding: 1px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 /*<--------------contactPage.html Section------------------->*/
 .contact-form {
