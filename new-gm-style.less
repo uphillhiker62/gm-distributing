@@ -15,7 +15,6 @@ body {
 }
 a {
   color: @anchor-white;
-  opacity: .8;
   text-decoration: none;
 
   a:hover, a:active {
@@ -64,6 +63,10 @@ ul {
     font-size: 18pt;
     color: white;
     margin: 40px;
+
+    a:hover {
+      width: 300px;
+    }
   }
   .main-container {
     background-color: @main-grey;
@@ -102,7 +105,7 @@ ul {
     display: flex;
     flex-flow: wrap;
     margin: 0 auto;
-    width: 70%;
+    max-width: 903px;
     padding-bottom: 50px
   }
   .stock-item {
@@ -163,10 +166,67 @@ ul {
     font-family: Helvetica, Arial, sans-serif;
   }
 }
+/*<--------------aboutpage.html Section--------------------->*/
+
+.main-top {
+  width: 100%;
+}
+.main-section {
+  display: flex;
+
+  .left-section, .right-section{
+
+    p {
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .main-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+/*<--------------aboutpage.html Section--------------------->*/
+
+
 
 
 
 /*<--------------contactPage.html Section------------------->*/
+
+.contact-main-container {
+  background-color: @main-grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  margin: 0px auto;
+  width: 90%;
+  box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.07);
+
+  .contact-main-left, .contact-main-right {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px 0 0 317px;
+    height: 55%;
+    width: 50%;
+    opacity: .9;
+    color: #253746;
+  }
+}
 
 .contact-form {
   margin: 25px;
@@ -175,21 +235,39 @@ ul {
   padding: 5px;
   margin: 5px 5px;
 }
-.main-left, .main-right{
-  background-color: white;
-  border: #000000 2px solid;
-  margin-top: 60px;
-  width: 40%;
-  height: 55%;
-  /*opacity: .6;*/
-  color: #253746;
-}
+
 /*<--------------contactPage.html Section------------------->*/
 
+@media screen and (max-width: 1000px) {
+  .navbar {
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .navitem {
+    margin: 25px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .search-bar {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .stock-item-container {
+    display: flex;
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 1100px) {
   .main-container {
     display: flex;
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 925px) {
+  .navbar {
+    margin-right: 50px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -198,21 +276,12 @@ ul {
     margin: 15px;
     padding-right: 15px;
   }
-
   .main-container {
     padding-top: 230px;
   }
-
-  .navitem {
-    font-size: 5px;
-  }
-
   .headerbar {
     margin: 15px;
     display: flex;
     flex-direction: column;
   }
 }
-
-
-
