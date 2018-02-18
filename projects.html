@@ -10,56 +10,78 @@
 </head>
 <body>
 <div class="container">
-    <header class="headerbar">
+    <!--<header class="headerbar">-->
+    <!--<div class="logo">-->
+    <!--<a class="headerGM" href="index.html" style="color: white"><img class="headerGM" src="gm-logo.png" alt=""></a>-->
+    <!--</div>-->
+    <!--<div class="navbar">-->
+    <!--<li><a class="navitem" href="index.html">Home</a></li>-->
+    <!--<li><a class="navitem" href="productsPage.html">Products</a></li>-->
+    <!--<li><a class="navitem" href="projects.html">Projects</a></li>-->
+    <!--<li><a class="navitem" href="about.html">About</a></li>-->
+    <!--<li><a class="navitem" href="contactPage.html">Contact</a></li>-->
+    <!--</div>-->
+    <!--<div class="search-bar">-->
+    <!--<input class="search-bar" type="text" placeholder="Search..">-->
+    <!--</div>-->
+    <!--</header>-->
+    <div class="navbar">
         <div class="logo">
             <a class="headerGM" href="index.html" style="color: white"><img class="headerGM" src="gm-logo.png" alt=""></a>
         </div>
-        <div class="navbar">
-            <li><a class="navitem" href="index.html">Home</a></li>
-            <li><a class="navitem" href="productsPage.html">Products</a></li>
-            <li><a class="navitem" href="projects.html">Projects</a></li>
-            <li><a class="navitem" href="about.html">About</a></li>
-            <li><a class="navitem" href="contactPage.html">Contact</a></li>
+        <div class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="productsPage.html">Products</a>
+            <div class="dropdown">
+                <button class="dropbtn">More
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="projects.html">Projects</a>
+                    <a href="about.html">About</a>
+                    <a href="contactPage.html">Contact</a>
+                </div>
+            </div>
         </div>
         <div class="search-bar">
-            <input type="text" placeholder="Search..">
+            <input class="search-bar" type="text" placeholder="Search..">
         </div>
-    </header>
+    </div>
     <main class="main-container">
         <div class="main-top">
             <h1>Projects</h1>
             <p>Below are some of the many projects GM has had the privilege of supplying products on.</p>
         </div>
-        <div class="stock-item-container">
-            <div class="stock-item">
-                <img src="trench-drain.jpg" alt="image trench drain">
-                <h3>Trench Drain Systems</h3>
-                <p>Stainless & Plastic</p>
+        <div class="past-project-container">
+            <div class="past-project">
+                <img src="city-creek.jpg" alt="downtown city creek mall">
+                <h3>City Creek</h3>
+                <p style="padding: 0">Downtown SLC, Ut</p>
             </div>
-            <div class="stock-item">
-                <img id="bfp" src="bfp.png" alt="image backflow preventer">
-                <h3>Backflow Prevention</h3>
-                <p>1/2" thru 10"</p>
+            <div class="past-project">
+                <img src="church-house.jpeg" alt="LDS church house">
+                <h3>Church Houses</h3>
+                <p style="padding: 0">Utah & Idaho</p>
             </div>
-            <div class="stock-item">
-                <img src="http://www.thewatersoftener.com/wp-content/uploads/2015/12/Kinetico-Essential-Series-Water-Softener.png" alt="trench drain image" alt="image of Marlo water softener">
-                <h3>Water Softeners</h3>
-                <p>Commercial Softeners</p>
+            <div class="past-project">
+                <img src="mount-jordan-middle.jpg" alt="Mount Jordan Middle School">
+                <h3>Mountain Jordan MS</h3>
+                <p style="padding: 0">Sandy, Ut</p>
             </div>
-            <div class="stock-item">
-                <img class="ez1-image" src="ez1.jpg" alt="image of Zurn EZ1 floor drain">
-                <h3>Cast/Plastic Floor Drains</h3>
-                <p>Commercial & LC</p>
+            <div class="past-project">
+                <img src="vivint-smart-home.jpeg" alt="Vivint smart home arena">
+                <h3>Vivint Smart Home Arena</h3>
+                <p style="padding: 0">Downtown SLC, Ut</p>
             </div>
-            <div class="stock-item">
-                <img class="catch-basin" src="catch-basin.jpg" alt="image of catch basin ">
-                <h3>Catch Basin</h3>
-                <p>6"x20", 12"x24" & 24"x24"</p>
+            <div class="past-project">
+                <img src="st-lukes.jpg" alt="St. Luke's hospital Boise, Id">
+                <h3>St. Luke's Hospital</h3>
+                <p style="padding: 0">Boise, Id</p>
             </div>
-            <div class="stock-item">
-                <img src="acv.jpg" alt="image of automatic control valve">
-                <h3>Automatic Control Valves</h3>
-                <p>1-1/4" - 10"</p>
+            <div class="past-project">
+                <img src="fedex-boise.jpeg" alt="Fedex Boise in construction">
+                <h3>FedEx Shipping Center</h3>
+                <p style="padding: 0">Boise, Id</p>
             </div>
         </div>
     </main>

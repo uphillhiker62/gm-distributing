@@ -10,26 +10,48 @@
 </head>
 <body>
 <div class="container">
-    <header class="headerbar">
+    <!--<header class="headerbar">-->
+        <!--<div class="logo">-->
+            <!--<a class="headerGM" href="index.html" style="color: white"><img class="headerGM" src="gm-logo.png" alt=""></a>-->
+        <!--</div>-->
+        <!--<div class="navbar">-->
+            <!--<li><a class="navitem" href="index.html">Home</a></li>-->
+            <!--<li><a class="navitem" href="productsPage.html">Products</a></li>-->
+            <!--<li><a class="navitem" href="projects.html">Projects</a></li>-->
+            <!--<li><a class="navitem" href="about.html">About</a></li>-->
+            <!--<li><a class="navitem" href="contactPage.html">Contact</a></li>-->
+        <!--</div>-->
+        <!--<div class="search-bar">-->
+            <!--<input class="search-bar" type="text" placeholder="Search..">-->
+        <!--</div>-->
+    <!--</header>-->
+    <div class="navbar">
         <div class="logo">
             <a class="headerGM" href="index.html" style="color: white"><img class="headerGM" src="gm-logo.png" alt=""></a>
         </div>
-        <div class="navbar">
-            <li><a class="navitem" href="index.html">Home</a></li>
-            <li><a class="navitem" href="productsPage.html">Products</a></li>
-            <li><a class="navitem" href="projects.html">Projects</a></li>
-            <li><a class="navitem" href="about.html">About</a></li>
-            <li><a class="navitem" href="contactPage.html">Contact</a></li>
+        <div class="nav-items">
+            <a href="index.html">Home</a>
+            <a href="productsPage.html">Products</a>
+            <div class="dropdown">
+                <button class="dropbtn">More
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="projects.html">Projects</a>
+                    <a href="about.html">About</a>
+                    <a href="contactPage.html">Contact</a>
+                </div>
+            </div>
         </div>
         <div class="search-bar">
-            <input type="text" placeholder="Search..">
+            <input class="search-bar" type="text" placeholder="Search..">
         </div>
-    </header>
+    </div>
     <main class="contact-main-container">
         <div class="contact-main-left">
-            <h3>Questions or Concerns?</h3>
+            <h3>Questions or Comments?</h3>
             <h4>Contact us at:</h4>
-            <p>admin@gm-dist.com or</p>
+            <p>admin@gm-distributing.com or</p>
             <p>801-999-9999</p>
         </div>
         <div class="contact-main-right">
@@ -48,7 +70,7 @@
                     <input name="phone-number" id="phone-number-id" class="form-inputs" type="tel" required>
                 </div>
                 <textarea name="comments" id="comments-id" class="form-inputs" cols="50" rows="10" placeholder="Request a quote or ask a question here." required></textarea><br>
-                <input type="submit">
+                <input class="submit-button" type="submit">
             </form>
         </div>
     </main>
